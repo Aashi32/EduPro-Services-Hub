@@ -1,0 +1,21 @@
+/* Footer Styles */
+.footer-container {
+  background-color: #F8F9D7;
+  color: #fb6060;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 1.6em;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 15px 0;
+  }
+
+}
