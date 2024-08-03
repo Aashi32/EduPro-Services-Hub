@@ -16,31 +16,33 @@ EduPro Services Hub is a comprehensive platform offering various educational ser
 
 1. **Clone the repository:**
 
-   git clone https://github.com/Aashi32/EduPro-Services-Hub.git
+   git clone https://github.com/Aashi32/EduPro-Services-Hub.git <br>
    cd EduPro-Services-Hub
-2. **Install dependencies for the server:**
+   
+3. **Install dependencies for the server:**
 
-   cd server
-   npm install
-3. **Install dependencies for the client:**
+   cd server<br>
+   npm install<br>
+   
+5. **Install dependencies for the client:**
 
-   cd ../client
-   npm install
+   cd ../client  <br>
+   npm install   <br>
 
 ## Environment Variables
-Create a .env file in the server directory and add the following environment variables:
+Create a .env file in the server directory and add the following environment variables:  <br>
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+PORT=5000   <br>
+MONGO_URI=your_mongodb_connection_string   <br>
+JWT_SECRET=your_jwt_secret    <br>
 
--> Running the Project
-... Start the server:
-cd server
-nodemon server.js
-... Start the client:
-cd client
-npm run dev
+-> Running the Project  <br>
+... Start the server:   <br>
+cd server    <br>
+nodemon server.js  <br>
+... Start the client: <br>
+cd client<br>
+npm run dev  <br>
 
 
 ## Usage
